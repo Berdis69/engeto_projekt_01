@@ -1,5 +1,5 @@
 """
-projekt_1.py: první projekt do Engeto Online Python Akademie
+main.py: první projekt do Engeto Online Python Akademie
 
 author: Pavel Berounský
 email: berounsky.pavel@gmail.com
