@@ -90,11 +90,11 @@ for clear_word in words:
         clear_word = clear_word.strip(",._!?")
         cleared.append(clear_word)
 for word in cleared:
-        word_lenght = len(word)
-        if word_lenght in freq:
-            freq[word_lenght] += 1
+        word_length = len(word)
+        if word_length in freq:
+            freq[word_length] += 1
         else:
-            freq[word_lenght] = 1
+            freq[word_length] = 1
         if word.istitle():
             titlecase.append(word)
         elif word.isupper():
@@ -104,6 +104,7 @@ for word in cleared:
         elif word.isnumeric():
             numeric.append(word)
 freq_sort = dict(sorted(freq.items()))
+print(cleared[0])
 
 # prvod číselného stringu na float
 for number in numeric:
